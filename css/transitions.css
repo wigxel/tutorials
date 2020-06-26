@@ -1,0 +1,88 @@
+.card {
+  width: 250px;
+  height: 300px;
+  border: solid 1px #bbb;
+  background-color: whitesmoke;
+  overflow: hidden;
+  border-radius: 12px;
+  font-family: 'Work Sans';
+}
+
+.card-image-holder {
+  background-image: linear-gradient(45deg, dodgerblue, rebeccapurple);
+  margin: 0;
+  height: 100px;
+  transition-property: height;
+  transition-duration: .4s;
+  transition-timing-function: linear;
+}
+
+/*  CSS PSUEDO CLASS */
+.card:hover .card-image-holder {
+  transition-timing-function: cubic-bezier(0.68, -0.55, 0.27, 1.55);
+
+  height: 300px; /* Final State */
+}
+
+.card-title {
+  margin: 0;
+}
+
+.card-body {
+  padding: 1rem;
+}
+
+
+.h-card {
+  width: 250px;
+  height: 300px;
+  border: solid 1px #bbb;
+  background-image: linear-gradient(45deg, purple 20%, red);
+  overflow: hidden;
+  border-radius: 12px;
+  font-family: 'Work Sans';
+}
+
+.h-card .h-card-body {
+  background-color: white;
+  height: 300px;
+  padding: 1rem;
+  transform: translateX(100%);
+  transition: transform .3s ease-in-out .2s;
+}
+
+.h-card:hover .h-card-body {
+  transform: translateX(0%);
+}
+
+.sha-card {
+  width: 250px;
+  height: 300px;
+  background-color: #bbb;
+  border-radius: 12px;
+  border: solid 1px #ddd;
+  padding: 1px;
+}
+
+.sha-card-body {
+  width: 100%;
+  height: 300px;
+  padding: 1rem;
+  font-family: 'work sans';
+  background-color: white;
+  border-radius: 12px;
+  box-shadow: 0 0 0 rgb(0, 0, 0, 0);
+  transform: translate(0, 0);
+}
+
+.sha-card:hover .sha-card-body {
+  box-shadow: 0 3px 13px rgb(0, 0, 0, .1);
+  transform: translate(15px, 15px);
+}
+
+
+
+
+
+
+

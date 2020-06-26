@@ -1,0 +1,58 @@
+body {
+  background-color: whitesmoke;
+}
+
+.card {
+  width: 200px;
+  display: inline-flex;
+  flex-direction: column;
+}
+.card-image {
+  margin: 0;
+  width: 100%;
+  height: 150px;
+  border: none;
+  background-image: linear-gradient(180deg, dodgerblue, plum);
+}
+.card-image.card-image--rounded {
+  border-radius: 12px;
+  margin-bottom: 0.5rem;
+}
+.card-body {
+  padding: 1rem;
+  font-family: "Poppins";
+  background-color: white;
+}
+.card-body.card-body--dark {
+  color: white;
+  background-color: #333333;
+}
+.card-body.card-body--blue {
+  color: white;
+  background-color: #202646;
+}
+.card-body.card-body--rounded {
+  border-radius: 12px;
+}
+.card-main-heading {
+  margin-top: 0;
+  font-size: 1.4rem;
+  font-weight: 300;
+  margin-bottom: 0rem;
+}
+.card-sub-heading {
+  margin-top: 0;
+  font-size: 1rem;
+  font-weight: 300;
+  opacity: 0.75;
+  margin-bottom: 1rem;
+}
+.card-paragraph {
+  font-size: 0.8rem;
+}
+.card--rounded {
+  overflow: hidden;
+  border-radius: 12px;
+}
+
+/*# sourceMappingURL=bem.css.map */
