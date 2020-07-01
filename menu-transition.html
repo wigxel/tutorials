@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title></title>
+    <link
+      href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+    <link href="./css/bem.css" rel="stylesheet" />
+  </head>
+
+  <body class="bg-white">
+    <header
+      class="container mx-auto flex justify-between py-4 items-center relative z-10"
+    >
+      <div>
+        <svg
+          width="133"
+          height="29"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            fill-rule="evenodd"
+            clip-rule="evenodd"
+            d="M69 16.163c0-.8478-.2129-1.5324-.6328-2.0354-.394-.4731-.8948-.8517-1.4883-1.1222-.5816-.2608-1.2033-.4618-1.8503-.5983-.6128-.1291-1.2055-.2785-1.7612-.4432-.5216-.155-.9504-.3463-1.2739-.5692-.2663-.1865-.3843-.4287-.3843-.7863 0-.549.23-1.27727 2.2213-1.27727 2.2724 0 2.4067 1.11337 2.4512 1.47907l.003.021h2.357l-.003-.0258c-.1128-1.07382-.5334-1.95222-1.2516-2.6086-.8435-.75891-1.9986-1.14321-3.4342-1.14321-1.6292 0-2.7265.28096-3.4535.88405-.8198.6701-1.236 1.6244-1.236 2.83866 0 .8316.2159 1.5017.6402 1.9925.394.4554.8925.8187 1.4816 1.0779.5512.2438 1.1737.4416 1.8495.5885.6514.1405 1.2271.2891 1.7576.4521.5097.155.937.3577 1.2701.6023.2649.1938.394.4691.394.8413 0 .5877-.2694.9769-.8495 1.228-.2686.1114-.5631.1945-.8762.2446-.6358.0977-1.3777.025-2.0409-.2018-.8658-.3206-1.3347-.8486-1.4749-1.66H59c.1157 1.1449.592 2.1169 1.3807 2.8145.9333.8606 2.1952 1.2974 3.7517 1.2974 1.5892 0 2.7005-.2858 3.4981-.8986C68.5393 18.4663 69 17.4596 69 16.163zM75.6913 9.65807c.47-.21151 1.0632-.22847 1.7331-.22847.6659 0 1.2413.18972 1.7602.5813.5087.3802.8897.8945 1.1329 1.5298l.0891.2309H83l-.1425-.4731c-.3779-1.2707-1.0772-2.30161-2.0777-3.06613-1.0439-.78147-2.2976-1.17866-3.7256-1.17866-1.881 0-3.3221.60063-4.4078 1.83339C71.5545 10.1303 71 11.6997 71 13.5509c0 1.8544.5552 3.427 1.6487 4.6751 1.088 1.2295 2.5284 1.8277 4.4055 1.8277 1.4295 0 2.6864-.398 3.7326-1.1835 1.002-.7718 1.699-1.8011 2.0707-3.0613L83 15.3358h-2.5942l-.0906.2309c-.2362.6289-.6164 1.1415-1.1322 1.525-.5095.394-1.0849.5861-1.7586.5861-1.356 0-2.262-.3495-2.9373-1.1334-.6985-.8073-1.0385-1.7866-1.0385-2.9935 0-1.211.3423-2.1886 1.0462-2.9887.3168-.3737.7156-.67728 1.1841-.90009l.0124-.00404zM90.4803 7.4614l-.0024.00484-.0143.00727c-.5924.27852-1.1014.63292-1.5143 1.05111l-.4391.44563V7.05371H86V20.0537h2.5102v-5.6786c0-1.2997.3565-2.4243 1.0601-3.3446.7448-.9647 1.6787-1.43298 2.8532-1.43298H93V7.05371h-.4828c-.783 0-1.4675.13724-2.0369.40769zM51.5 17.5104c-1.6756 0-3.0385-1.412-3.0385-3.1486V7.05359H46v7.30821c0 3.1381 2.467 5.6918 5.5 5.6918s5.5-2.5537 5.5-5.6918V7.05359h-2.4631v7.30821c0 1.7366-1.3629 3.1486-3.0369 3.1486z"
+            fill="#252525"
+          ></path>
+          <mask
+            id="a"
+            maskUnits="userSpaceOnUse"
+            x="121"
+            y="7"
+            width="12"
+            height="13"
+          >
+            <path
+              fill-rule="evenodd"
+              clip-rule="evenodd"
+              d="M121.516 7.0907h11.286v12.3141h-11.286V7.0907z"
+              fill="#fff"
+            ></path>
+          </mask>
+          <g mask="url(#a)">
+            <path
+              fill-rule="evenodd"
+              clip-rule="evenodd"
+              d="M127.16 7.0907c-3.112 0-5.644 2.41876-5.644 5.3919v6.9222h2.528v-6.9222c0-1.6456 1.398-2.98308 3.116-2.98308 1.719 0 3.117 1.33748 3.117 2.98308v6.9222h2.526v-6.9222c0-2.97314-2.531-5.3919-5.643-5.3919z"
+              fill="#252525"
+            ></path>
+          </g>
+          <path
+            fill-rule="evenodd"
+            clip-rule="evenodd"
+            d="M95.5307 12.3193l.1066-.3432c.1927-.6354.5057-1.1601.9558-1.6074.6496-.63216 1.4363-.93976 2.4073-.93976.9687 0 1.7546.3076 2.4046.93976.45.4448.764.9704.958 1.6074l.105.3432h-6.9373zm3.4697-5.26559c-1.7897 0-3.2717.6475-4.4049 1.92554C93.5369 10.2113 93 11.7816 93 13.6482c0 1.7858.5308 3.2092 1.6701 4.4792 1.1446 1.278 2.6404 1.9263 4.4438 1.9263 1.4231 0 2.6091-.3649 3.5211-1.0851.768-.599 1.383-1.4379 1.828-2.4947l.013-.0299h-2.732l-.007.0089c-.626.8251-1.475 1.2248-2.5988 1.2248-1.0403 0-1.8719-.3294-2.5413-1.0092-.4661-.4731-.8149-.9244-1.0045-1.5897l-.0975-.3375H105v-1.0931c0-1.8723-.538-3.4442-1.6-4.6746-1.128-1.27401-2.609-1.91989-4.3996-1.91989zM109.531 12.3193l.106-.3432c.194-.6362.507-1.1617.956-1.6074.65-.63216 1.436-.93976 2.407-.93976.968 0 1.754.3076 2.405.93976.45.444.764.9696.958 1.6074l.105.3432h-6.937zM113 7.05371c-1.789 0-3.271.6475-4.405 1.92554C107.537 10.2105 107 11.7808 107 13.6482c0 1.7858.531 3.2092 1.67 4.4792 1.145 1.278 2.64 1.9263 4.444 1.9263 1.423 0 2.607-.3649 3.521-1.0851.766-.5974 1.382-1.4363 1.829-2.4947l.012-.0299h-2.733l-.006.0097c-.626.8243-1.476 1.224-2.599 1.224-1.041 0-1.872-.3294-2.541-1.0092-.467-.4731-.816-.9252-1.005-1.5897l-.097-.3375H119v-1.0931c0-1.8723-.538-3.4442-1.6-4.6746-1.129-1.27401-2.61-1.91989-4.4-1.91989z"
+            fill="#252525"
+          ></path>
+          <mask
+            id="b"
+            maskUnits="userSpaceOnUse"
+            x="0"
+            y="0"
+            width="30"
+            height="25"
+          >
+            <path
+              fill-rule="evenodd"
+              clip-rule="evenodd"
+              d="M0 .408325h29.3775V24.8549H0V.408325z"
+              fill="#fff"
+            ></path>
+          </mask>
+          <g mask="url(#b)">
+            <path
+              fill-rule="evenodd"
+              clip-rule="evenodd"
+              d="M22.476.407959c-.2477 0-.4985.017187-.7508.053125L4.64139 2.8814C1.696 3.29858-.358612 6.06186.0521568 9.05327L1.57523 20.1408c.37539 2.7351 2.68231 4.714 5.32616 4.714.24769 0 .49846-.0172.75076-.0531L24.736 22.3814c2.9454-.4172 5-3.1805 4.5892-6.1719L27.8021 5.12202C27.4268 2.38687 25.1198.407959 22.476.407959zm0 2.453121c1.4692 0 2.7308 1.11797 2.9339 2.6l1.523 11.08752c.2262 1.6468-.9092 3.1734-2.5307 3.4031L7.31831 22.372c-.13846.0195-.27923.0297-.41692.0297-1.46923 0-2.73077-1.1172-2.93385-2.6L2.44446 8.7142c-.10923-.79765.09308-1.5914.57154-2.23359.47769-.64297 1.17385-1.05859 1.95923-1.16953L22.0591 2.89077c.1384-.01953.2784-.02969.4169-.02969z"
+              fill="#252525"
+            ></path>
+          </g>
+          <path
+            fill-rule="evenodd"
+            clip-rule="evenodd"
+            d="M27.5 28.0536c-4.6946 0-8.5-3.8054-8.5-8.5 0-4.6946 3.8054-8.5 8.5-8.5 4.6946 0 8.5 3.8054 8.5 8.5 0 4.6946-3.8054 8.5-8.5 8.5z"
+            fill="#006AFF"
+          ></path>
+          <path
+            fill-rule="evenodd"
+            clip-rule="evenodd"
+            d="M25.5099 23.0055l5.327-3.1666c.2175-.1294.2175-.441 0-.5704l-5.327-3.1666c-.2241-.1335-.5099.0264-.5099.2852v6.3333c0 .2588.2858.4187.5099.2851z"
+            fill="#fff"
+          ></path>
+        </svg>
+      </div>
+
+      <nav>
+        <ul class="flex">
+          <li id="platform" class="px-4 py-2">Platform</li>
+          <li class="px-4 py-2">Examples</li>
+          <li class="px-4 py-2">Pricings</li>
+          <li class="px-4 py-2">Resources</li>
+          <li class="px-4 py-2">About</li>
+        </ul>
+      </nav>
+
+      <div>
+        <a href="/login" class="px-4">Login</a>
+        <a
+          href="/free"
+          class="inline-block py-4 px-6 bg-primary text-white text-sm rounded-full"
+        >
+          Start Free Trial
+        </a>
+      </div>
+    </header>
+
+    <nav id="main-menu" class="shadow-xl relative z-4">
+      <div class="container mx-auto flex" style="height: 60vh;">
+        <section class="main-section w-3/4">
+          <h4 class="p-2 border-b border-gray-300 text-sm">
+            PLATFORM
+          </h4>
+
+          <div class="grid grid-cols-3 p-8 row-gap-8 col-gap-5">
+            <div>
+              <h5>Blog</h5>
+              <p class="text-xs opacity-75 mt-3">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui
+                ipsum illo saepe ut debitis commodi?
+              </p>
+            </div>
+
+            <div>
+              <h5>Video Business School</h5>
+              <p class="text-xs opacity-75 mt-3">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui
+                ipsum illo saepe ut debitis commodi?
+              </p>
+            </div>
+
+            <div>
+              <h5>Podcast</h5>
+              <p class="text-xs opacity-75 mt-3">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui
+                ipsum illo saepe ut debitis commodi?
+              </p>
+            </div>
+
+            <div>
+              <h5>Blog</h5>
+              <p class="text-xs opacity-75 mt-3">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui
+                ipsum illo saepe ut debitis commodi?
+              </p>
+            </div>
+
+            <div>
+              <h5>Video Business School</h5>
+              <p class="text-xs opacity-75 mt-3">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui
+                ipsum illo saepe ut debitis commodi?
+              </p>
+            </div>
+
+            <div>
+              <h5>Podcast</h5>
+              <p class="text-xs opacity-75 mt-3">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui
+                ipsum illo saepe ut debitis commodi?
+              </p>
+            </div>
+          </div>
+        </section>
+
+        <section class="w-1/4 ml-5">
+          <h4 class="pt-2 pb-4 text-sm">LEARN</h4>
+
+          <div
+            class="card shadow-lg rounded-lg overflow-hidden"
+            style="width: 100%;"
+          >
+            <figure class="card-image" src="">
+              <figcaption></figcaption>
+            </figure>
+            <div class="card-body">
+              <h3 class="card-main-heading">Heading 1</h3>
+              <h5 class="card-sub-heading">First Edition</h5>
+              <p class="card-paragraph">John C. Huggin</p>
+            </div>
+          </div>
+        </section>
+      </div>
+    </nav>
+
+    <script>
+      const mainMenu = document.querySelector("#main-menu");
+      const platform = document.querySelector("#platform");
+
+      const toggleMainMenu = function () {
+        console.log("Clicking");
+        if (mainMenu.classList.contains("show")) {
+          mainMenu.classList.remove("show");
+        } else {
+          mainMenu.classList.add("show");
+        }
+      };
+
+      platform.addEventListener("click", toggleMainMenu);
+    </script>
+  </body>
+  <style>
+    .bg-primary {
+      background-color: #006aff;
+    }
+
+    #main-menu {
+      opacity: 0;
+      transform: translateY(-120%);
+      transition: all 0.3s ease-out;
+    }
+
+    #main-menu.show {
+      opacity: 1;
+      transform: translateY(0);
+    }
+
+    #main-menu > * {
+      transform: translateY(50%);
+      opacity: 0;
+      transition: all 0.3s ease-in-out 0.3s;
+    }
+
+    #main-menu.show > * {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  </style>
+</html>
